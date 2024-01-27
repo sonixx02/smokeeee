@@ -1,0 +1,28 @@
+
+.support-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .support-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+  }
+  
+  .checkbox-option {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .checkbox-option:hover {
+    transform: scale(1.05);
+  }

@@ -1,0 +1,35 @@
+.multi-checkbox-group {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-card {
+  margin-right: 10px;
+}
+
+.checkbox-card:hover {
+  background-color: #f5f5f5;
+}
+
+.checkbox-card label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.checkbox-card input {
+  margin-right: 8px;
+}
+
+.checkbox-card input:checked + label {
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+}
